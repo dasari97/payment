@@ -8,4 +8,5 @@ module "payment" {
     port        = 8080
     is_internal = "true"
     priority    = 600
+    APP_VERSION = var.APP_VERSION
 }
