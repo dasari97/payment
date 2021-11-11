@@ -5,7 +5,7 @@ module "payment" {
     component   = "payment"
     port        = 8080
     is_internal = "true"
-    priority    = 200
+    priority    = 400
     APP_VERSION = var.APP_VERSION
     max_size    = var.max_size
     min_size    = var.min_size
