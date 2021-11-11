@@ -4,7 +4,7 @@ module "payment" {
     instance_type = var.instance_type
     component   = "payment"
     port        = 8080
-#    is_internal = "true"
-#    priority    = 200
+    is_internal = "true"
+    priority    = 200
     APP_VERSION = var.APP_VERSION
 }
