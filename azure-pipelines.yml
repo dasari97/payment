@@ -17,7 +17,7 @@ variables:
   COMPONENT: payment
     
 stages: 
-- template: "codecheck.yml@azureCI"
-- template: "codeTest.yml@azureCI"
-- template: "python-az.yml@azureCI"
-  
+#- template: "codecheck.yml@azureCI"
+#- template: "codeTest.yml@azureCI"
+#- template: "python-az.yml@azureCI"
+- template: "docker.yml@azureCI"  
